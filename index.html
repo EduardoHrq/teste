@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>teste</title>
+</head>
+
+<body>
+
+
+  <script>
+
+    Notification.requestPermission(function (status) {
+      let n = new Notification('Compra com crédito aprovada!', {
+        body: "Compra no valor de R$6000 em NAVE aprovada!",
+        icon: 'https://nubank.com.br/images/nu-icon.png?v=2'
+      })
+    })
+
+  </script>
+
+</body>
+
+</html>
